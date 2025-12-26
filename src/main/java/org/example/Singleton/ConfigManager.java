@@ -6,7 +6,7 @@ import java.util.Map;
 public class ConfigManager {
 
     private static volatile ConfigManager fmanager;
-    private Map<String, String> configMap;
+    private final Map<String, String> configMap;
 
     private ConfigManager(){
         this.configMap = new HashMap<>();
