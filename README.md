@@ -5,10 +5,9 @@
 * Used for shared, application-wide state
 * Constructor is private
 * Instance is usually static
-* 
-Be careful with:
-    thread safety
-    overuse (can become global state)
+* Be careful with:
+thread safety
+overuse (can become global state)
 Common examples:
     ConfigManager
     Logger
@@ -20,10 +19,9 @@ Common examples:
 * Client depends on abstraction, not concrete classes
 * Helps follow OCP
 * Central place to control object creation
-* 
-Good when:
-   multiple implementations exist
-   creation logic may change 
+* Good when:
+multiple implementations exist
+creation logic may change 
 
 3. Strategy
 
@@ -41,7 +39,6 @@ Good when:
 * Subject does not know concrete observers
 * Observers can be added/removed dynamically
 * Promotes loose coupling
-* 
-Good for:
-    notifications
-    event-driven systems
+* Good for:
+notifications
+event-driven systems
