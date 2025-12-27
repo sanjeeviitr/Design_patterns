@@ -3,6 +3,8 @@ package org.example.Singleton;
 public class Main {
     public static void main(String[] args) {
 
+//        Singleton Pattern ensures that a class has only one instance and provides a global access point to it, typically used when a single shared object is required to maintain consistency across the application.
+
 //        Logger l1 = Logger.getInstance();
 //        Logger l2 = Logger.getInstance();
 //
