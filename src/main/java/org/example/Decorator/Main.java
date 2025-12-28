@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
 
         // to avoid class explosion
-        // has-a and is-a both
+        // has-a and is-a both with base class
         Coffee coffee = new BasicCoffee();
         coffee = new MilkDecorator(coffee);
         coffee = new SugarDecorator(coffee);
